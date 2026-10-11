@@ -1,0 +1,22 @@
+name: Test ViaggiaTreno connection
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Query station lookup
+        run: python3 scripts/test_viaggiatreno.py
+      - name: Save diagnostic result
+        uses: actions/upload-artifact@v4
+        with:
+          name: viaggiatreno-diagnostic
+          path: data/viaggiatreno-test.json
+          retention-days: 7
