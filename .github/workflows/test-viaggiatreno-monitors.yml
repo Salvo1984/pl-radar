@@ -1,0 +1,22 @@
+name: Test ViaggiaTreno monitors
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Query station arrivals and departures
+        run: python3 scripts/test_viaggiatreno_monitors.py
+      - name: Save monitor diagnostic
+        uses: actions/upload-artifact@v4
+        with:
+          name: viaggiatreno-monitor-diagnostic
+          path: data/viaggiatreno-monitor-test.json
+          retention-days: 7
