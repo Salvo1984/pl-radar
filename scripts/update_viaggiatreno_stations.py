@@ -13,8 +13,10 @@ STATIONS = {"Palma S. Gennaro": "S09701", "Nola": "S09700", "Sarno": "S09702"}
 now = dt.datetime.now(ZoneInfo("Europe/Rome"))
 # L'endpoint usa una stringa data locale. Mantenere il formato usato nel test riuscito.
 offset = now.strftime("%z")
-offset_label = "GMT" + offset[:3] + ":" + offset[3:]
-date = now.strftime("%a %b %d %Y %H:%M:%S ") + offset_label + " (Central European Summer Time)"
+offset_label = "GMT" + offset
+timezone_name = "Central European Summer Time" if now.dst() else "Central European Standard Time"
+date = now.strftime("%a %b %d %Y %H:%M:%S ") + offset_label + " (" + timezone_name + ")"
+print("ViaggiaTreno date parameter:", date, flush=True)
 result = {"updated_at": now.isoformat(), "source": "ViaggiaTreno (endpoint non ufficiale)", "disclaimer": "Orari di stazione, NON stato sbarre o previsione transiti; treni merci non garantiti", "stations": []}
 successful = 0
 for name, code in STATIONS.items():
