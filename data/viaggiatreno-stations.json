@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T13:36:04.921997+02:00",
+  "updated_at": "2026-10-13T13:59:08.158689+02:00",
   "source": "ViaggiaTreno (endpoint non ufficiale)",
   "disclaimer": "Orari di stazione, NON stato sbarre o previsione transiti; treni merci non garantiti",
   "stations": [
@@ -12,7 +12,7 @@
           "time": "13:41",
           "destination": "CASERTA",
           "origin": "",
-          "delay_minutes": 19,
+          "delay_minutes": 25,
           "not_departed": false
         },
         {
@@ -20,8 +20,8 @@
           "time": "14:14",
           "destination": "SALERNO",
           "origin": "",
-          "delay_minutes": null,
-          "not_departed": true
+          "delay_minutes": 2,
+          "not_departed": false
         },
         {
           "train": "REG 4882",
@@ -46,7 +46,7 @@
           "time": "13:40",
           "destination": "",
           "origin": "BATTIPAGLIA",
-          "delay_minutes": 19,
+          "delay_minutes": 25,
           "not_departed": false
         },
         {
@@ -54,8 +54,8 @@
           "time": "14:13",
           "destination": "",
           "origin": "CASERTA",
-          "delay_minutes": null,
-          "not_departed": true
+          "delay_minutes": 2,
+          "not_departed": false
         },
         {
           "train": "REG 4882",
@@ -85,7 +85,7 @@
           "time": "13:48",
           "destination": "CASERTA",
           "origin": "",
-          "delay_minutes": 19,
+          "delay_minutes": 25,
           "not_departed": false
         },
         {
@@ -93,8 +93,8 @@
           "time": "14:07",
           "destination": "SALERNO",
           "origin": "",
-          "delay_minutes": null,
-          "not_departed": true
+          "delay_minutes": 2,
+          "not_departed": false
         },
         {
           "train": "REG 4882",
@@ -119,7 +119,7 @@
           "time": "13:47",
           "destination": "",
           "origin": "BATTIPAGLIA",
-          "delay_minutes": 19,
+          "delay_minutes": 25,
           "not_departed": false
         },
         {
@@ -127,8 +127,8 @@
           "time": "14:06",
           "destination": "",
           "origin": "CASERTA",
-          "delay_minutes": null,
-          "not_departed": true
+          "delay_minutes": 2,
+          "not_departed": false
         },
         {
           "train": "REG 4882",
@@ -158,7 +158,7 @@
           "time": "13:33",
           "destination": "CASERTA",
           "origin": "",
-          "delay_minutes": 19,
+          "delay_minutes": 25,
           "not_departed": false
         },
         {
@@ -166,13 +166,21 @@
           "time": "14:28",
           "destination": "SALERNO",
           "origin": "",
-          "delay_minutes": null,
-          "not_departed": true
+          "delay_minutes": 2,
+          "not_departed": false
         },
         {
           "train": "REG 4882",
           "time": "14:33",
           "destination": "CASERTA",
+          "origin": "",
+          "delay_minutes": null,
+          "not_departed": true
+        },
+        {
+          "train": "REG 4881",
+          "time": "15:22",
+          "destination": "SALERNO",
           "origin": "",
           "delay_minutes": null,
           "not_departed": true
@@ -184,7 +192,7 @@
           "time": "13:32",
           "destination": "",
           "origin": "BATTIPAGLIA",
-          "delay_minutes": 19,
+          "delay_minutes": 25,
           "not_departed": false
         },
         {
@@ -192,14 +200,22 @@
           "time": "14:21",
           "destination": "",
           "origin": "CASERTA",
-          "delay_minutes": null,
-          "not_departed": true
+          "delay_minutes": 2,
+          "not_departed": false
         },
         {
           "train": "REG 4882",
           "time": "14:32",
           "destination": "",
           "origin": "SALERNO",
+          "delay_minutes": null,
+          "not_departed": true
+        },
+        {
+          "train": "REG 4881",
+          "time": "15:21",
+          "destination": "",
+          "origin": "CASERTA",
           "delay_minutes": null,
           "not_departed": true
         }
