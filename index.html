@@ -53,7 +53,7 @@ let railwayLayer=null;
 async function showRailwayTrack(){
   const status=$('status');
   status.textContent='Verifica del binario reale su OpenStreetMap in corso…';
-  const query='[out:json][timeout:25];way(bn:324835300)[railway];out geom;';
+  const query='[out:json][timeout:25];node(324835300);way(bn)[railway];out geom;';
   const endpoints=['https://overpass.kumi.systems/api/interpreter','https://overpass-api.de/api/interpreter'];
   let data=null,errors=[];
   for(const endpoint of endpoints){
