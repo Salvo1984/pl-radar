@@ -5,6 +5,7 @@ import json
 import pathlib
 import urllib.parse
 import urllib.request
+import sys
 from zoneinfo import ZoneInfo
 
 BASE = "https://www.viaggiatreno.it/infomobilita/resteasy/viaggiatreno/"
@@ -13,7 +14,7 @@ now = dt.datetime.now(ZoneInfo("Europe/Rome"))
 # L'endpoint usa una stringa data locale. Mantenere il formato usato nel test riuscito.
 offset = now.strftime("%z")
 offset_label = "GMT" + offset[:3] + ":" + offset[3:]
-date = now.strftime("%a %b %d %Y %H:%M:%S ") + offset_label + " (" + now.tzname() + ")"
+date = now.strftime("%a %b %d %Y %H:%M:%S ") + offset_label + " (Central European Summer Time)"
 result = {"updated_at": now.isoformat(), "source": "ViaggiaTreno (endpoint non ufficiale)", "disclaimer": "Orari di stazione, NON stato sbarre o previsione transiti; treni merci non garantiti", "stations": []}
 successful = 0
 for name, code in STATIONS.items():
@@ -50,6 +51,7 @@ for name, code in STATIONS.items():
         except Exception as exc:
             entry["errors"].append(endpoint + ": " + str(exc)[:160])
     result["stations"].append(entry)
+    print(name + ": " + ("; ".join(entry["errors"]) if entry["errors"] else "both endpoints OK"), file=sys.stderr, flush=True)
 # Non sovrascrivere dati validi con un file vuoto se l'endpoint è totalmente indisponibile.
 if successful == 0:
     raise SystemExit("No ViaggiaTreno endpoint succeeded; previous published data unchanged")
