@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T21:05:51.565136+02:00",
+  "updated_at": "2026-10-16T21:40:24.972897+02:00",
   "source": "ViaggiaTreno (endpoint non ufficiale)",
   "disclaimer": "Orari di stazione, NON stato sbarre o previsione transiti; treni merci non garantiti",
   "stations": [
@@ -12,8 +12,8 @@
           "time": "21:48",
           "destination": "SALERNO",
           "origin": "",
-          "delay_minutes": null,
-          "not_departed": true
+          "delay_minutes": -1,
+          "not_departed": false
         },
         {
           "train": "REG 4894",
@@ -30,8 +30,8 @@
           "time": "21:47",
           "destination": "",
           "origin": "CASERTA",
-          "delay_minutes": null,
-          "not_departed": true
+          "delay_minutes": -1,
+          "not_departed": false
         },
         {
           "train": "REG 4894",
@@ -53,8 +53,8 @@
           "time": "21:42",
           "destination": "SALERNO",
           "origin": "",
-          "delay_minutes": null,
-          "not_departed": true
+          "delay_minutes": -1,
+          "not_departed": false
         },
         {
           "train": "REG 4894",
@@ -71,8 +71,8 @@
           "time": "21:41",
           "destination": "",
           "origin": "CASERTA",
-          "delay_minutes": null,
-          "not_departed": true
+          "delay_minutes": -1,
+          "not_departed": false
         },
         {
           "train": "REG 4894",
@@ -94,8 +94,8 @@
           "time": "21:57",
           "destination": "SALERNO",
           "origin": "",
-          "delay_minutes": null,
-          "not_departed": true
+          "delay_minutes": -1,
+          "not_departed": false
         },
         {
           "train": "REG 4894",
@@ -112,8 +112,8 @@
           "time": "21:56",
           "destination": "",
           "origin": "CASERTA",
-          "delay_minutes": null,
-          "not_departed": true
+          "delay_minutes": -1,
+          "not_departed": false
         },
         {
           "train": "REG 4894",
