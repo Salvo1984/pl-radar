@@ -1,0 +1,31 @@
+name: Test train progress (diagnostic only)
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "7,37 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: train-progress-diagnostic
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 7
+    steps:
+      - uses: actions/checkout@v4
+      - name: Collect andamentoTreno diagnostic
+        run: python3 scripts/update_train_progress.py
+      - name: Commit diagnostic output
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/train-progress-diagnostic.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update diagnostic train progress"
+            git push
+          fi
