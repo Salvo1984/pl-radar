@@ -7,6 +7,7 @@ import json
 from pathlib import Path
 import urllib.parse
 import urllib.request
+import xml.etree.ElementTree as ET
 
 LAT, LON = 40.8797604, 14.5363296
 QUERY = '[out:json][timeout:35];way["railway"~"^(rail|light_rail|narrow_gauge)$"](around:350,40.8797604,14.5363296);out geom;'
@@ -31,6 +32,28 @@ for base in ENDPOINTS:
         break
     except Exception as exc:
         print("Failed", base, repr(exc), flush=True)
+if data is None:
+    # Fallback: official OSM map API, small geographic bounding box.
+    # This API returns XML nodes and ways rather than Overpass JSON.
+    bbox = "14.5322,40.8768,14.5405,40.8827"
+    url = "https://api.openstreetmap.org/api/0.6/map?bbox=" + bbox
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "PLRadarPilotRailway/1.0", "Accept": "application/xml"})
+        with urllib.request.urlopen(req, timeout=45) as response:
+            root = ET.fromstring(response.read())
+        nodes = {n.attrib["id"]: (float(n.attrib["lat"]), float(n.attrib["lon"])) for n in root.findall("node")}
+        elements = []
+        for way in root.findall("way"):
+            tags = {tag.attrib["k"]: tag.attrib["v"] for tag in way.findall("tag")}
+            if tags.get("railway") not in ("rail", "light_rail", "narrow_gauge"):
+                continue
+            geometry = [{"lat": nodes[nd.attrib["ref"]][0], "lon": nodes[nd.attrib["ref"]][1]} for nd in way.findall("nd") if nd.attrib["ref"] in nodes]
+            if len(geometry) >= 2:
+                elements.append({"type": "way", "id": int(way.attrib["id"]), "tags": tags, "geometry": geometry})
+        data = {"elements": elements}
+        print("OSM official map API returned", len(elements), "railway ways")
+    except Exception as exc:
+        print("Official OSM map API failed:", repr(exc))
 if data is None:
     raise SystemExit("No OSM data retrieved; leaving prior archive unchanged")
 
