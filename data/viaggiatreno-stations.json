@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T18:52:42.039675+02:00",
+  "updated_at": "2026-10-17T19:16:25.467889+02:00",
   "source": "ViaggiaTreno (endpoint non ufficiale)",
   "disclaimer": "Orari di stazione, NON stato sbarre o previsione transiti; treni merci non garantiti",
   "stations": [
@@ -14,12 +14,28 @@
           "origin": "",
           "delay_minutes": null,
           "not_departed": true
+        },
+        {
+          "train": "REG 4892",
+          "time": "20:39",
+          "destination": "CASERTA",
+          "origin": "",
+          "delay_minutes": null,
+          "not_departed": true
         }
       ],
       "arrivals": [
         {
           "train": "REG 4888",
           "time": "19:40",
+          "destination": "",
+          "origin": "SALERNO",
+          "delay_minutes": null,
+          "not_departed": true
+        },
+        {
+          "train": "REG 4892",
+          "time": "20:38",
           "destination": "",
           "origin": "SALERNO",
           "delay_minutes": null,
@@ -39,12 +55,28 @@
           "origin": "",
           "delay_minutes": null,
           "not_departed": true
+        },
+        {
+          "train": "REG 4892",
+          "time": "20:46",
+          "destination": "CASERTA",
+          "origin": "",
+          "delay_minutes": null,
+          "not_departed": true
         }
       ],
       "arrivals": [
         {
           "train": "REG 4888",
           "time": "19:47",
+          "destination": "",
+          "origin": "SALERNO",
+          "delay_minutes": null,
+          "not_departed": true
+        },
+        {
+          "train": "REG 4892",
+          "time": "20:45",
           "destination": "",
           "origin": "SALERNO",
           "delay_minutes": null,
@@ -60,6 +92,14 @@
         {
           "train": "REG 4888",
           "time": "19:33",
+          "destination": "CASERTA",
+          "origin": "",
+          "delay_minutes": null,
+          "not_departed": true
+        },
+        {
+          "train": "REG 4892",
+          "time": "20:31",
           "destination": "CASERTA",
           "origin": "",
           "delay_minutes": null,
