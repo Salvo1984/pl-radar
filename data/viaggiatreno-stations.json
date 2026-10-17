@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T19:16:25.467889+02:00",
+  "updated_at": "2026-10-17T19:49:28.199042+02:00",
   "source": "ViaggiaTreno (endpoint non ufficiale)",
   "disclaimer": "Orari di stazione, NON stato sbarre o previsione transiti; treni merci non garantiti",
   "stations": [
@@ -12,8 +12,8 @@
           "time": "19:41",
           "destination": "CASERTA",
           "origin": "",
-          "delay_minutes": null,
-          "not_departed": true
+          "delay_minutes": 0,
+          "not_departed": false
         },
         {
           "train": "REG 4892",
@@ -30,8 +30,8 @@
           "time": "19:40",
           "destination": "",
           "origin": "SALERNO",
-          "delay_minutes": null,
-          "not_departed": true
+          "delay_minutes": 0,
+          "not_departed": false
         },
         {
           "train": "REG 4892",
@@ -53,8 +53,8 @@
           "time": "19:48",
           "destination": "CASERTA",
           "origin": "",
-          "delay_minutes": null,
-          "not_departed": true
+          "delay_minutes": 0,
+          "not_departed": false
         },
         {
           "train": "REG 4892",
@@ -71,8 +71,8 @@
           "time": "19:47",
           "destination": "",
           "origin": "SALERNO",
-          "delay_minutes": null,
-          "not_departed": true
+          "delay_minutes": 0,
+          "not_departed": false
         },
         {
           "train": "REG 4892",
@@ -90,14 +90,6 @@
       "code": "S09702",
       "departures": [
         {
-          "train": "REG 4888",
-          "time": "19:33",
-          "destination": "CASERTA",
-          "origin": "",
-          "delay_minutes": null,
-          "not_departed": true
-        },
-        {
           "train": "REG 4892",
           "time": "20:31",
           "destination": "CASERTA",
@@ -107,14 +99,6 @@
         }
       ],
       "arrivals": [
-        {
-          "train": "REG 4888",
-          "time": "19:32",
-          "destination": "",
-          "origin": "SALERNO",
-          "delay_minutes": null,
-          "not_departed": true
-        },
         {
           "train": "REG 4892",
           "time": "20:30",
