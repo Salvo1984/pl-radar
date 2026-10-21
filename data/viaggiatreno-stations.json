@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T08:59:07.021019+02:00",
+  "updated_at": "2026-10-21T09:42:07.255644+02:00",
   "source": "ViaggiaTreno (endpoint non ufficiale)",
   "disclaimer": "Orari di stazione, NON stato sbarre o previsione transiti; treni merci non garantiti",
   "stations": [
@@ -7,14 +7,6 @@
       "name": "Palma S. Gennaro",
       "code": "S09701",
       "departures": [
-        {
-          "train": "REG 4873",
-          "time": "08:45",
-          "destination": "SALERNO",
-          "origin": "",
-          "delay_minutes": -3,
-          "not_departed": false
-        },
         {
           "train": "REG 4877",
           "time": "10:14",
@@ -26,18 +18,10 @@
       ],
       "arrivals": [
         {
-          "train": "REG 4873",
-          "time": "08:44",
-          "destination": "",
-          "origin": "CASERTA",
-          "delay_minutes": -3,
-          "not_departed": false
-        },
-        {
           "train": "REG 4877",
           "time": "10:13",
           "destination": "",
-          "origin": "CASERTA",
+          "origin": "CANCELLO",
           "delay_minutes": null,
           "not_departed": true
         }
@@ -62,7 +46,7 @@
           "train": "REG 4877",
           "time": "10:06",
           "destination": "",
-          "origin": "CASERTA",
+          "origin": "CANCELLO",
           "delay_minutes": null,
           "not_departed": true
         }
@@ -74,14 +58,6 @@
       "code": "S09702",
       "departures": [
         {
-          "train": "REG 4873",
-          "time": "08:53",
-          "destination": "SALERNO",
-          "origin": "",
-          "delay_minutes": -3,
-          "not_departed": false
-        },
-        {
           "train": "REG 4877",
           "time": "10:22",
           "destination": "SALERNO",
@@ -92,18 +68,10 @@
       ],
       "arrivals": [
         {
-          "train": "REG 4873",
-          "time": "08:52",
-          "destination": "",
-          "origin": "CASERTA",
-          "delay_minutes": -3,
-          "not_departed": false
-        },
-        {
           "train": "REG 4877",
           "time": "10:21",
           "destination": "",
-          "origin": "CASERTA",
+          "origin": "CANCELLO",
           "delay_minutes": null,
           "not_departed": true
         }
