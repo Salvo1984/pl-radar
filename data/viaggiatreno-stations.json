@@ -1,61 +1,19 @@
 {
-  "updated_at": "2026-10-21T21:59:48.992248+02:00",
+  "updated_at": "2026-10-21T22:30:23.762862+02:00",
   "source": "ViaggiaTreno (endpoint non ufficiale)",
   "disclaimer": "Orari di stazione, NON stato sbarre o previsione transiti; treni merci non garantiti",
   "stations": [
     {
       "name": "Palma S. Gennaro",
       "code": "S09701",
-      "departures": [
-        {
-          "train": "REG 4893",
-          "time": "21:48",
-          "destination": "SALERNO",
-          "origin": "",
-          "delay_minutes": null,
-          "not_departed": true
-        },
-        {
-          "train": "REG 4894",
-          "time": "22:10",
-          "destination": "CANCELLO",
-          "origin": "",
-          "delay_minutes": null,
-          "not_departed": true
-        }
-      ],
-      "arrivals": [
-        {
-          "train": "REG 4893",
-          "time": "21:47",
-          "destination": "",
-          "origin": "CANCELLO",
-          "delay_minutes": null,
-          "not_departed": true
-        },
-        {
-          "train": "REG 4894",
-          "time": "22:09",
-          "destination": "",
-          "origin": "SALERNO",
-          "delay_minutes": null,
-          "not_departed": true
-        }
-      ],
+      "departures": [],
+      "arrivals": [],
       "errors": []
     },
     {
       "name": "Nola",
       "code": "S09700",
       "departures": [
-        {
-          "train": "REG 4893",
-          "time": "21:42",
-          "destination": "SALERNO",
-          "origin": "",
-          "delay_minutes": null,
-          "not_departed": true
-        },
         {
           "train": "REG 4894",
           "time": "22:17",
@@ -66,14 +24,6 @@
         }
       ],
       "arrivals": [
-        {
-          "train": "REG 4893",
-          "time": "21:41",
-          "destination": "",
-          "origin": "CANCELLO",
-          "delay_minutes": null,
-          "not_departed": true
-        },
         {
           "train": "REG 4894",
           "time": "22:16",
@@ -88,42 +38,8 @@
     {
       "name": "Sarno",
       "code": "S09702",
-      "departures": [
-        {
-          "train": "REG 4893",
-          "time": "21:57",
-          "destination": "SALERNO",
-          "origin": "",
-          "delay_minutes": null,
-          "not_departed": true
-        },
-        {
-          "train": "REG 4894",
-          "time": "22:02",
-          "destination": "CANCELLO",
-          "origin": "",
-          "delay_minutes": null,
-          "not_departed": true
-        }
-      ],
-      "arrivals": [
-        {
-          "train": "REG 4893",
-          "time": "21:56",
-          "destination": "",
-          "origin": "CANCELLO",
-          "delay_minutes": null,
-          "not_departed": true
-        },
-        {
-          "train": "REG 4894",
-          "time": "22:01",
-          "destination": "",
-          "origin": "SALERNO",
-          "delay_minutes": null,
-          "not_departed": true
-        }
-      ],
+      "departures": [],
+      "arrivals": [],
       "errors": []
     }
   ]
