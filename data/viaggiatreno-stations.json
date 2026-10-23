@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T19:40:41.708851+02:00",
+  "updated_at": "2026-10-23T20:08:18.472011+02:00",
   "source": "ViaggiaTreno (endpoint non ufficiale)",
   "disclaimer": "Orari di stazione, NON stato sbarre o previsione transiti; treni merci non garantiti",
   "stations": [
@@ -8,20 +8,12 @@
       "code": "S09701",
       "departures": [
         {
-          "train": "REG 4888",
-          "time": "19:41",
-          "destination": "CANCELLO",
-          "origin": "",
-          "delay_minutes": 5,
-          "not_departed": false
-        },
-        {
           "train": "REG 4891",
           "time": "20:16",
           "destination": "BATTIPAGLIA",
           "origin": "",
-          "delay_minutes": null,
-          "not_departed": true
+          "delay_minutes": 6,
+          "not_departed": false
         },
         {
           "train": "REG 4892",
@@ -34,20 +26,12 @@
       ],
       "arrivals": [
         {
-          "train": "REG 4888",
-          "time": "19:40",
-          "destination": "",
-          "origin": "SALERNO",
-          "delay_minutes": 5,
-          "not_departed": false
-        },
-        {
           "train": "REG 4891",
           "time": "20:15",
           "destination": "",
           "origin": "CANCELLO",
-          "delay_minutes": null,
-          "not_departed": true
+          "delay_minutes": 6,
+          "not_departed": false
         },
         {
           "train": "REG 4892",
@@ -69,7 +53,7 @@
           "time": "19:48",
           "destination": "CANCELLO",
           "origin": "",
-          "delay_minutes": 5,
+          "delay_minutes": 12,
           "not_departed": false
         },
         {
@@ -77,13 +61,21 @@
           "time": "20:09",
           "destination": "BATTIPAGLIA",
           "origin": "",
-          "delay_minutes": null,
-          "not_departed": true
+          "delay_minutes": 6,
+          "not_departed": false
         },
         {
           "train": "REG 4892",
           "time": "20:46",
           "destination": "CANCELLO",
+          "origin": "",
+          "delay_minutes": null,
+          "not_departed": true
+        },
+        {
+          "train": "REG 4893",
+          "time": "21:42",
+          "destination": "SALERNO",
           "origin": "",
           "delay_minutes": null,
           "not_departed": true
@@ -95,7 +87,7 @@
           "time": "19:47",
           "destination": "",
           "origin": "SALERNO",
-          "delay_minutes": 5,
+          "delay_minutes": 12,
           "not_departed": false
         },
         {
@@ -103,14 +95,22 @@
           "time": "20:08",
           "destination": "",
           "origin": "CANCELLO",
-          "delay_minutes": null,
-          "not_departed": true
+          "delay_minutes": 6,
+          "not_departed": false
         },
         {
           "train": "REG 4892",
           "time": "20:45",
           "destination": "",
           "origin": "SALERNO",
+          "delay_minutes": null,
+          "not_departed": true
+        },
+        {
+          "train": "REG 4893",
+          "time": "21:41",
+          "destination": "",
+          "origin": "CANCELLO",
           "delay_minutes": null,
           "not_departed": true
         }
@@ -122,28 +122,12 @@
       "code": "S09702",
       "departures": [
         {
-          "train": "REG 4889",
-          "time": "19:16",
-          "destination": "SALERNO",
-          "origin": "",
-          "delay_minutes": 3,
-          "not_departed": false
-        },
-        {
-          "train": "REG 4888",
-          "time": "19:33",
-          "destination": "CANCELLO",
-          "origin": "",
-          "delay_minutes": 5,
-          "not_departed": false
-        },
-        {
           "train": "REG 4891",
           "time": "20:24",
           "destination": "BATTIPAGLIA",
           "origin": "",
-          "delay_minutes": null,
-          "not_departed": true
+          "delay_minutes": 6,
+          "not_departed": false
         },
         {
           "train": "REG 4892",
@@ -156,20 +140,12 @@
       ],
       "arrivals": [
         {
-          "train": "REG 4888",
-          "time": "19:32",
-          "destination": "",
-          "origin": "SALERNO",
-          "delay_minutes": 5,
-          "not_departed": false
-        },
-        {
           "train": "REG 4891",
           "time": "20:23",
           "destination": "",
           "origin": "CANCELLO",
-          "delay_minutes": null,
-          "not_departed": true
+          "delay_minutes": 6,
+          "not_departed": false
         },
         {
           "train": "REG 4892",
