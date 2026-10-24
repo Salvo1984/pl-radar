@@ -1,16 +1,9 @@
 {
-  "updated_at": "2026-10-24T21:02:34.334596+02:00",
+  "updated_at": "2026-10-24T21:25:45.999354+02:00",
   "source": "ViaggiaTreno / andamentoTreno (API non ufficiale)",
   "diagnostic_only": true,
   "disclaimer": "Dati ferroviari sperimentali. Non indicano posizione GPS, passaggio al PL o stato delle sbarre.",
   "trains": [
-    {
-      "train": "REG 4892",
-      "number": "4892",
-      "ok": false,
-      "stops": [],
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
     {
       "train": "REG 4893",
       "number": "4893",
