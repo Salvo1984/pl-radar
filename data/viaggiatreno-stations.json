@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T09:11:10.048630+02:00",
+  "updated_at": "2026-10-24T09:44:06.498425+02:00",
   "source": "ViaggiaTreno (endpoint non ufficiale)",
   "disclaimer": "Orari di stazione, NON stato sbarre o previsione transiti; treni merci non garantiti",
   "stations": [
@@ -58,14 +58,6 @@
       "code": "S09702",
       "departures": [
         {
-          "train": "REG 4873",
-          "time": "08:53",
-          "destination": "SALERNO",
-          "origin": "",
-          "delay_minutes": -2,
-          "not_departed": false
-        },
-        {
           "train": "REG 4877",
           "time": "10:22",
           "destination": "SALERNO",
@@ -75,14 +67,6 @@
         }
       ],
       "arrivals": [
-        {
-          "train": "REG 4873",
-          "time": "08:52",
-          "destination": "",
-          "origin": "CANCELLO",
-          "delay_minutes": -2,
-          "not_departed": false
-        },
         {
           "train": "REG 4877",
           "time": "10:21",
