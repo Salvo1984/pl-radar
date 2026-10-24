@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T21:22:02.872562+02:00",
+  "updated_at": "2026-10-24T21:49:20.414072+02:00",
   "source": "ViaggiaTreno (endpoint non ufficiale)",
   "disclaimer": "Orari di stazione, NON stato sbarre o previsione transiti; treni merci non garantiti",
   "stations": [
@@ -12,16 +12,16 @@
           "time": "21:48",
           "destination": "SALERNO",
           "origin": "",
-          "delay_minutes": null,
-          "not_departed": true
+          "delay_minutes": 7,
+          "not_departed": false
         },
         {
           "train": "REG 4894",
           "time": "22:10",
           "destination": "CANCELLO",
           "origin": "",
-          "delay_minutes": null,
-          "not_departed": true
+          "delay_minutes": 1,
+          "not_departed": false
         }
       ],
       "arrivals": [
@@ -30,16 +30,16 @@
           "time": "21:47",
           "destination": "",
           "origin": "CANCELLO",
-          "delay_minutes": null,
-          "not_departed": true
+          "delay_minutes": 7,
+          "not_departed": false
         },
         {
           "train": "REG 4894",
           "time": "22:09",
           "destination": "",
           "origin": "SALERNO",
-          "delay_minutes": null,
-          "not_departed": true
+          "delay_minutes": 1,
+          "not_departed": false
         }
       ],
       "errors": []
@@ -53,16 +53,16 @@
           "time": "21:42",
           "destination": "SALERNO",
           "origin": "",
-          "delay_minutes": null,
-          "not_departed": true
+          "delay_minutes": 7,
+          "not_departed": false
         },
         {
           "train": "REG 4894",
           "time": "22:17",
           "destination": "CANCELLO",
           "origin": "",
-          "delay_minutes": null,
-          "not_departed": true
+          "delay_minutes": 1,
+          "not_departed": false
         }
       ],
       "arrivals": [
@@ -71,16 +71,16 @@
           "time": "21:41",
           "destination": "",
           "origin": "CANCELLO",
-          "delay_minutes": null,
-          "not_departed": true
+          "delay_minutes": 7,
+          "not_departed": false
         },
         {
           "train": "REG 4894",
           "time": "22:16",
           "destination": "",
           "origin": "SALERNO",
-          "delay_minutes": null,
-          "not_departed": true
+          "delay_minutes": 1,
+          "not_departed": false
         }
       ],
       "errors": []
@@ -94,16 +94,16 @@
           "time": "21:57",
           "destination": "SALERNO",
           "origin": "",
-          "delay_minutes": null,
-          "not_departed": true
+          "delay_minutes": 7,
+          "not_departed": false
         },
         {
           "train": "REG 4894",
           "time": "22:02",
           "destination": "CANCELLO",
           "origin": "",
-          "delay_minutes": null,
-          "not_departed": true
+          "delay_minutes": 1,
+          "not_departed": false
         }
       ],
       "arrivals": [
@@ -112,16 +112,16 @@
           "time": "21:56",
           "destination": "",
           "origin": "CANCELLO",
-          "delay_minutes": null,
-          "not_departed": true
+          "delay_minutes": 7,
+          "not_departed": false
         },
         {
           "train": "REG 4894",
           "time": "22:01",
           "destination": "",
           "origin": "SALERNO",
-          "delay_minutes": null,
-          "not_departed": true
+          "delay_minutes": 1,
+          "not_departed": false
         }
       ],
       "errors": []
