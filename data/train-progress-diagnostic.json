@@ -1,36 +1,36 @@
 {
-  "updated_at": "2026-10-27T12:14:34.164797+01:00",
+  "updated_at": "2026-10-27T13:09:35.993380+01:00",
   "source": "ViaggiaTreno / andamentoTreno (API non ufficiale)",
   "diagnostic_only": true,
   "disclaimer": "Dati ferroviari sperimentali. Non indicano posizione GPS, passaggio al PL o stato delle sbarre.",
   "trains": [
     {
-      "train": "REG 4876",
-      "number": "4876",
-      "ok": false,
-      "stops": [],
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
       "train": "REG 4878",
       "number": "4878",
       "ok": false,
       "stops": [],
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "train": "REG 4879",
       "number": "4879",
       "ok": false,
       "stops": [],
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "train": "REG 4880",
       "number": "4880",
       "ok": false,
       "stops": [],
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "train": "REG 4899",
+      "number": "4899",
+      "ok": false,
+      "stops": [],
+      "error": "HTTP Error 403: Forbidden"
     }
   ]
 }
