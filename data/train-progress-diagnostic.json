@@ -1,33 +1,19 @@
 {
-  "updated_at": "2026-11-01T19:39:53.921755+01:00",
+  "updated_at": "2026-11-01T20:37:24.991950+01:00",
   "source": "ViaggiaTreno / andamentoTreno (API non ufficiale)",
   "diagnostic_only": true,
   "disclaimer": "Dati ferroviari sperimentali. Non indicano posizione GPS, passaggio al PL o stato delle sbarre.",
   "trains": [
     {
-      "train": "REG 4889",
-      "number": "4889",
-      "ok": false,
-      "stops": [],
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "train": "REG 4888",
-      "number": "4888",
-      "ok": false,
-      "stops": [],
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "train": "REG 4890",
-      "number": "4890",
-      "ok": false,
-      "stops": [],
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
       "train": "REG 4868",
       "number": "4868",
+      "ok": false,
+      "stops": [],
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "train": "REG 4893",
+      "number": "4893",
       "ok": false,
       "stops": [],
       "error": "Expecting value: line 1 column 1 (char 0)"
