@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T16:39:18.397878+01:00",
+  "updated_at": "2026-11-03T17:31:20.013339+01:00",
   "source": "ViaggiaTreno (endpoint non ufficiale)",
   "disclaimer": "Orari di stazione, NON stato sbarre o previsione transiti; treni merci non garantiti",
   "stations": [
@@ -8,28 +8,20 @@
       "code": "S09701",
       "departures": [
         {
-          "train": "REG 4898",
-          "time": "17:07",
-          "destination": "CASERTA",
-          "origin": "",
-          "delay_minutes": 4,
-          "not_departed": false
-        },
-        {
           "train": "REG 4885",
           "time": "17:14",
           "destination": "SALERNO",
           "origin": "",
-          "delay_minutes": null,
-          "not_departed": true
+          "delay_minutes": 4,
+          "not_departed": false
         },
         {
           "train": "REG 4886",
           "time": "17:41",
           "destination": "CASERTA",
           "origin": "",
-          "delay_minutes": null,
-          "not_departed": true
+          "delay_minutes": 4,
+          "not_departed": false
         },
         {
           "train": "REG 4887",
@@ -38,36 +30,44 @@
           "origin": "",
           "delay_minutes": null,
           "not_departed": true
+        },
+        {
+          "train": "REG 4889",
+          "time": "19:08",
+          "destination": "SALERNO",
+          "origin": "",
+          "delay_minutes": null,
+          "not_departed": true
         }
       ],
       "arrivals": [
-        {
-          "train": "REG 4898",
-          "time": "17:06",
-          "destination": "",
-          "origin": "BATTIPAGLIA",
-          "delay_minutes": 4,
-          "not_departed": false
-        },
         {
           "train": "REG 4885",
           "time": "17:13",
           "destination": "",
           "origin": "CASERTA",
-          "delay_minutes": null,
-          "not_departed": true
+          "delay_minutes": 4,
+          "not_departed": false
         },
         {
           "train": "REG 4886",
           "time": "17:40",
           "destination": "",
           "origin": "SALERNO",
-          "delay_minutes": null,
-          "not_departed": true
+          "delay_minutes": 4,
+          "not_departed": false
         },
         {
           "train": "REG 4887",
           "time": "18:13",
+          "destination": "",
+          "origin": "CASERTA",
+          "delay_minutes": null,
+          "not_departed": true
+        },
+        {
+          "train": "REG 4889",
+          "time": "19:07",
           "destination": "",
           "origin": "CASERTA",
           "delay_minutes": null,
@@ -81,19 +81,11 @@
       "code": "S09700",
       "departures": [
         {
-          "train": "REG 4885",
-          "time": "17:07",
-          "destination": "SALERNO",
-          "origin": "",
-          "delay_minutes": null,
-          "not_departed": true
-        },
-        {
           "train": "REG 4898",
           "time": "17:14",
           "destination": "CASERTA",
           "origin": "",
-          "delay_minutes": 4,
+          "delay_minutes": 5,
           "not_departed": false
         },
         {
@@ -101,8 +93,8 @@
           "time": "17:48",
           "destination": "CASERTA",
           "origin": "",
-          "delay_minutes": null,
-          "not_departed": true
+          "delay_minutes": 4,
+          "not_departed": false
         },
         {
           "train": "REG 4887",
@@ -111,23 +103,23 @@
           "origin": "",
           "delay_minutes": null,
           "not_departed": true
+        },
+        {
+          "train": "REG 4889",
+          "time": "19:01",
+          "destination": "SALERNO",
+          "origin": "",
+          "delay_minutes": null,
+          "not_departed": true
         }
       ],
       "arrivals": [
-        {
-          "train": "REG 4885",
-          "time": "17:06",
-          "destination": "",
-          "origin": "CASERTA",
-          "delay_minutes": null,
-          "not_departed": true
-        },
         {
           "train": "REG 4898",
           "time": "17:13",
           "destination": "",
           "origin": "BATTIPAGLIA",
-          "delay_minutes": 4,
+          "delay_minutes": 5,
           "not_departed": false
         },
         {
@@ -135,12 +127,20 @@
           "time": "17:47",
           "destination": "",
           "origin": "SALERNO",
-          "delay_minutes": null,
-          "not_departed": true
+          "delay_minutes": 4,
+          "not_departed": false
         },
         {
           "train": "REG 4887",
           "time": "18:06",
+          "destination": "",
+          "origin": "CASERTA",
+          "delay_minutes": null,
+          "not_departed": true
+        },
+        {
+          "train": "REG 4889",
+          "time": "19:00",
           "destination": "",
           "origin": "CASERTA",
           "delay_minutes": null,
@@ -154,33 +154,25 @@
       "code": "S09702",
       "departures": [
         {
-          "train": "REG 4883",
-          "time": "16:22",
+          "train": "REG 4885",
+          "time": "17:22",
           "destination": "SALERNO",
           "origin": "",
-          "delay_minutes": -3,
+          "delay_minutes": 4,
           "not_departed": false
         },
         {
-          "train": "REG 4898",
-          "time": "16:59",
+          "train": "REG 4886",
+          "time": "17:33",
           "destination": "CASERTA",
           "origin": "",
           "delay_minutes": 4,
           "not_departed": false
         },
         {
-          "train": "REG 4885",
-          "time": "17:22",
+          "train": "REG 4887",
+          "time": "18:22",
           "destination": "SALERNO",
-          "origin": "",
-          "delay_minutes": null,
-          "not_departed": true
-        },
-        {
-          "train": "REG 4886",
-          "time": "17:33",
-          "destination": "CASERTA",
           "origin": "",
           "delay_minutes": null,
           "not_departed": true
@@ -188,26 +180,34 @@
       ],
       "arrivals": [
         {
-          "train": "REG 4898",
-          "time": "16:58",
-          "destination": "",
-          "origin": "BATTIPAGLIA",
-          "delay_minutes": 4,
-          "not_departed": false
-        },
-        {
           "train": "REG 4885",
           "time": "17:21",
           "destination": "",
           "origin": "CASERTA",
-          "delay_minutes": null,
-          "not_departed": true
+          "delay_minutes": 4,
+          "not_departed": false
         },
         {
           "train": "REG 4886",
           "time": "17:32",
           "destination": "",
           "origin": "SALERNO",
+          "delay_minutes": 4,
+          "not_departed": false
+        },
+        {
+          "train": "REG 4887",
+          "time": "18:21",
+          "destination": "",
+          "origin": "CASERTA",
+          "delay_minutes": null,
+          "not_departed": true
+        },
+        {
+          "train": "REG 4889",
+          "time": "19:15",
+          "destination": "",
+          "origin": "CASERTA",
           "delay_minutes": null,
           "not_departed": true
         }
