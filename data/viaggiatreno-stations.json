@@ -1,13 +1,31 @@
 {
-  "updated_at": "2026-11-13T23:24:30.281446+01:00",
+  "updated_at": "2026-11-14T03:36:15.103553+01:00",
   "source": "ViaggiaTreno (endpoint non ufficiale)",
   "disclaimer": "Orari di stazione, NON stato sbarre o previsione transiti; treni merci non garantiti",
   "stations": [
     {
       "name": "Palma S. Gennaro",
       "code": "S09701",
-      "departures": [],
-      "arrivals": [],
+      "departures": [
+        {
+          "train": "REG 4896",
+          "time": "05:15",
+          "destination": "CASERTA",
+          "origin": "",
+          "delay_minutes": null,
+          "not_departed": true
+        }
+      ],
+      "arrivals": [
+        {
+          "train": "REG 4896",
+          "time": "05:14",
+          "destination": "",
+          "origin": "SALERNO",
+          "delay_minutes": null,
+          "not_departed": true
+        }
+      ],
       "errors": []
     },
     {
@@ -20,8 +38,26 @@
     {
       "name": "Sarno",
       "code": "S09702",
-      "departures": [],
-      "arrivals": [],
+      "departures": [
+        {
+          "train": "REG 4896",
+          "time": "05:07",
+          "destination": "CASERTA",
+          "origin": "",
+          "delay_minutes": null,
+          "not_departed": true
+        }
+      ],
+      "arrivals": [
+        {
+          "train": "REG 4896",
+          "time": "05:06",
+          "destination": "",
+          "origin": "SALERNO",
+          "delay_minutes": null,
+          "not_departed": true
+        }
+      ],
       "errors": []
     }
   ]
