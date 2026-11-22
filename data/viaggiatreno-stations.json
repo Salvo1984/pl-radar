@@ -1,27 +1,113 @@
 {
-  "updated_at": "2026-11-22T01:05:51.846192+01:00",
+  "updated_at": "2026-11-22T07:46:14.570078+01:00",
   "source": "ViaggiaTreno (endpoint non ufficiale)",
   "disclaimer": "Orari di stazione, NON stato sbarre o previsione transiti; treni merci non garantiti",
   "stations": [
     {
       "name": "Palma S. Gennaro",
       "code": "S09701",
-      "departures": [],
-      "arrivals": [],
+      "departures": [
+        {
+          "train": "REG 4873",
+          "time": "08:45",
+          "destination": "SALERNO",
+          "origin": "",
+          "delay_minutes": null,
+          "not_departed": true
+        },
+        {
+          "train": "REG 4875",
+          "time": "09:29",
+          "destination": "SALERNO",
+          "origin": "",
+          "delay_minutes": null,
+          "not_departed": true
+        }
+      ],
+      "arrivals": [
+        {
+          "train": "REG 4873",
+          "time": "08:44",
+          "destination": "",
+          "origin": "CASERTA",
+          "delay_minutes": null,
+          "not_departed": true
+        },
+        {
+          "train": "REG 4875",
+          "time": "09:28",
+          "destination": "",
+          "origin": "CASERTA",
+          "delay_minutes": null,
+          "not_departed": true
+        }
+      ],
       "errors": []
     },
     {
       "name": "Nola",
       "code": "S09700",
-      "departures": [],
-      "arrivals": [],
+      "departures": [
+        {
+          "train": "REG 4873",
+          "time": "08:38",
+          "destination": "SALERNO",
+          "origin": "",
+          "delay_minutes": null,
+          "not_departed": true
+        },
+        {
+          "train": "REG 4875",
+          "time": "09:20",
+          "destination": "SALERNO",
+          "origin": "",
+          "delay_minutes": null,
+          "not_departed": true
+        }
+      ],
+      "arrivals": [
+        {
+          "train": "REG 4873",
+          "time": "08:37",
+          "destination": "",
+          "origin": "CASERTA",
+          "delay_minutes": null,
+          "not_departed": true
+        },
+        {
+          "train": "REG 4875",
+          "time": "09:19",
+          "destination": "",
+          "origin": "CASERTA",
+          "delay_minutes": null,
+          "not_departed": true
+        }
+      ],
       "errors": []
     },
     {
       "name": "Sarno",
       "code": "S09702",
-      "departures": [],
-      "arrivals": [],
+      "departures": [
+        {
+          "train": "REG 4873",
+          "time": "08:53",
+          "destination": "SALERNO",
+          "origin": "",
+          "delay_minutes": null,
+          "not_departed": true
+        }
+      ],
+      "arrivals": [
+        {
+          "train": "REG 4873",
+          "time": "08:52",
+          "destination": "",
+          "origin": "CASERTA",
+          "delay_minutes": null,
+          "not_departed": true
+        }
+      ],
       "errors": []
     }
   ]
